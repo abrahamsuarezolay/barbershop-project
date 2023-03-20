@@ -6,6 +6,8 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   background-color: rgba(240, 248, 255, 0);
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
 }
 
 
@@ -13,17 +15,29 @@
   display: flex;
   justify-content: center;
   font-family: sans-serif;
-  background-color: rgb(255, 15, 15);
+  background-color: rgb(255, 199, 78);
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
 }
 
-a {
+.navbar a {
   color: rgb(194, 193, 193);
   text-decoration: none;
   transition: color 0.3s;
 }
 
-a:hover{
-  color: rgb(255, 208, 108);
+.navbar a:hover{
+  color: rgb(255, 199, 78);
+}
+
+.navbar-bg a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-bg a:hover{
+  color: rgb(200, 200, 200);
 }
 
 #inicio, #nosotros, #servicios, #galeria, #contacto{
