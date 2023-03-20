@@ -1,5 +1,6 @@
 import react from "react"
 import { useState } from "react"
+import { IoLogoInstagram } from "react-icons/io"
 
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
     window.addEventListener("scroll", changeColor)
 
     return(
-            <div className="fixed-top ms-1 me-1">
+        <div className="row fixed-top ms-1 me-1">
             <div className={color ? "navbar navbar-bg" : "navbar"}>
                 <ul className="navbar-list">
                     <li><a href="#inicio" className="rootMargin: 20px">INICIO</a></li>
@@ -27,7 +28,7 @@ const Navbar = () => {
                     <li><a href="#contacto" className="rootMargin: 20px">CONTACTO</a></li>
                 </ul>
             </div>
-            </div>
+        </div>
         )
 }
 

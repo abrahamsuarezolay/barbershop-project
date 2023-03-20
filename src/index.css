@@ -10,12 +10,16 @@
   transition-duration: 0.5s;
 }
 
+.social{
+  border-color: solid red 9px;
+}
+
 
 .navbar-bg{
   display: flex;
   justify-content: center;
   font-family: sans-serif;
-  background-color: rgb(255, 199, 78);
+  background-color: rgba(255, 199, 78, 0.732);
   transition-property: background-color, color;
   transition-duration: 0.5s;
 }
@@ -124,6 +128,19 @@
 hr {
   border-width: 3px;
 }
+
+.footer-container a {
+  color: rgb(194, 193, 193);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-container a:hover {
+  color: rgb(194, 193, 193);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
 
 
 .horarios ul{
