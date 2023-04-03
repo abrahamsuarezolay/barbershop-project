@@ -5,7 +5,7 @@ const Headerpicture = () =>{
     <div className="headerpicture row" id="inicio">
         <div className="col-2"></div>
         <div className="col-8">
-            <img src={require('../images/logo1.jpeg')} className="img-fluid" />
+            <img src={require('../images/logo1.jpeg')} className="img-fluid" alt="logo" />
         </div>
         <div className="col-2"></div>
     </div>)

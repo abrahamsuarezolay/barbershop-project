@@ -30,9 +30,9 @@ const Footer = () => {
         </div>
         <div className="col-1"></div>
         <div className="footer-logo col-2 text-center">
-            <img src={require('../images/logo1.jpeg')} className="img-fluid" />
+            <img src={require('../images/logo1.jpeg')} className="img-fluid" alt="logo" />
             <p>
-                <a href="https://www.instagram.com/morel_barbershop/" target="_blank"><IoLogoInstagram size={35} /></a>
+                <a href="https://www.instagram.com/morel_barbershop/" target="_blank" rel="noreferrer"><IoLogoInstagram size={35} /></a>
             </p>
         </div>
         <div className="col-1"></div>

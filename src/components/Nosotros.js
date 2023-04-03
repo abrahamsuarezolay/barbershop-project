@@ -7,7 +7,7 @@ const Nosotros = () =>{
             <p className="ms-3">nt esse ex culpa deserunt cillum quis. Esse labore do eiusmod sit ad irure quis sunt officia irure.</p>
         </div>
         <div className="col-6">
-            <img src={require('../images/barber.jpg')} className="img-fluid"/>
+            <img src={require('../images/barber.jpg')} className="img-fluid" alt="mainpic"/>
         </div>
     </div>)
 }

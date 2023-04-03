@@ -1,9 +1,8 @@
-import react from "react"
 import { useState } from "react"
-import { IoLogoInstagram } from "react-icons/io"
 
 
-const Navbar = () => {
+
+const Navbar = ({fixed}) => {
 
     const [color, setColor] = useState(false);
 
@@ -18,7 +17,7 @@ const Navbar = () => {
     window.addEventListener("scroll", changeColor)
 
     return(
-        <div className="row fixed-top ms-1 me-1">
+        <div className={fixed? "row fixed-top ms-1 me-1 navbar-container-open" : "row fixed-top ms-1 me-1 navbar-container-closed"} id="navbarstatus">
             <div className={color ? "navbar navbar-bg" : "navbar"}>
                 <ul className="navbar-list">
                     <li><a href="#inicio" className="rootMargin: 20px">INICIO</a></li>
@@ -30,6 +29,8 @@ const Navbar = () => {
             </div>
         </div>
         )
+        
 }
 
-export default Navbar
+
+export default Navbar;
